@@ -9,7 +9,7 @@ django-extensions
 django-filter
 django-import-export[all]
 django-rest-swagger
-pandas[performance, plot, computation, excel, xml, postgresql, hdf5]
+pandas[performance, plot, computation, excel, xml, hdf5]
 polars-lts-cpu
 ibis-framework[pandas, polars]
 statsmodels
