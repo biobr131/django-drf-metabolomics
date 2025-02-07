@@ -1,6 +1,11 @@
 psycopg[binary]
 django
 djangorestframework
+PyYAML
+uritemplate
+Markdown
+Pygments
+django-guardian
 django-environ
 gunicorn
 django-structlog
@@ -8,7 +13,11 @@ django-silk
 django-extensions
 django-filter
 django-import-export[all]
-django-rest-swagger
+drf-spectacular
+django-auditlog
+strawberry-graphql[asgi]
+strawberry-graphql-django
+uvicorn[standard]
 pandas[performance, plot, computation, excel, xml, hdf5]
 polars-lts-cpu
 ibis-framework[pandas, polars]

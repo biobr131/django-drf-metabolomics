@@ -19,7 +19,6 @@ INSTALLED_APPS = [
     "django_extensions",
     "django_filters",
     "import_export",
-    "rest_framework_swagger",
     "silk",
     "accounts",
 ]
