@@ -10,4 +10,3 @@ pytest-cov
 factory-boy
 pytest-structlog
 sphinx
-django-debug-toolbar
