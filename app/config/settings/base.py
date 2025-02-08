@@ -16,10 +16,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "auditlog",
     "django_extensions",
     "django_filters",
+    "drf_spectacular",
     "import_export",
     "silk",
+    "strawberry_django", 
     "accounts",
 ]
 
@@ -31,6 +34,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "auditlog.middleware.AuditlogMiddleware",
     "silk.middleware.SilkyMiddleware",
 ]
 
@@ -112,3 +116,15 @@ MEDIA_ROOT = BASE_DIR / "media"
 # Default primary key field type
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+RESTFRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema"
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Your Project API",
+    "DESCRIPTION": "Your project description",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
+}
