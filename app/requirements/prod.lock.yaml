@@ -214,6 +214,7 @@ dependencies:
       - django-tree-queries==0.19.0
       - djangorestframework==3.15.2
       - drf-spectacular==0.28.0
+      - drf-spectacular-sidecar==2025.2.1
       - et-xmlfile==2.0.0
       - fastcluster==1.2.6
       - gprof2dot==2024.6.6

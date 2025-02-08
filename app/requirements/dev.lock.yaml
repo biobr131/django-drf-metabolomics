@@ -225,6 +225,7 @@ dependencies:
       - djangorestframework==3.15.2
       - docutils==0.21.2
       - drf-spectacular==0.28.0
+      - drf-spectacular-sidecar==2025.2.1
       - et-xmlfile==2.0.0
       - factory-boy==3.3.3
       - faker==35.2.0
